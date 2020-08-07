@@ -3,19 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0173D8CBDD5042E1AB10E2CE /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E920665CF195410E8FC49043 /* AmplifyModels.swift */; };
+		44E4A14D46E04F9DB0C01AA6 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = EFE2F7E6C1E44579A296489C /* awsconfiguration.json */; };
+		74B617444AE945DBBEF26C3E /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = FC952C7FEB5F44FBB6AC9586 /* amplifyconfiguration.json */; };
+		7F7E4ABA324A498391AB5D30 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4338733F0A4E44A91498A9 /* User.swift */; };
+		7F97C82167873779D3DB32DC /* Pods_AWS_Offline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8064B04B106766697053C67B /* Pods_AWS_Offline.framework */; };
+		D0E45005340D48AB9FCAC186 /* User+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11037550AF74965A73F1578 /* User+Schema.swift */; };
 		E69781DD24DD48BB00DC6A9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69781DC24DD48BB00DC6A9B /* AppDelegate.swift */; };
 		E69781DF24DD48BB00DC6A9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69781DE24DD48BB00DC6A9B /* SceneDelegate.swift */; };
 		E69781E124DD48BB00DC6A9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69781E024DD48BB00DC6A9B /* ViewController.swift */; };
 		E69781E424DD48BB00DC6A9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E69781E224DD48BB00DC6A9B /* Main.storyboard */; };
 		E69781E624DD48C000DC6A9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E69781E524DD48C000DC6A9B /* Assets.xcassets */; };
 		E69781E924DD48C000DC6A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E69781E724DD48C000DC6A9B /* LaunchScreen.storyboard */; };
+		E69781F224DD4C0C00DC6A9B /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69781F124DD4C0C00DC6A9B /* NetworkingService.swift */; };
+		E69781F424DD4C2A00DC6A9B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69781F324DD4C2A00DC6A9B /* DataManager.swift */; };
+		E69781F624DD4D4700DC6A9B /* WireUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69781F524DD4D4700DC6A9B /* WireUser.swift */; };
+		E69781F824DD506B00DC6A9B /* BatchSaveOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69781F724DD506B00DC6A9B /* BatchSaveOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05FEB2D2B6C34D3A9DE39E33 /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/amplifyDatasource/schema.graphql; sourceTree = "<group>"; };
+		1D68227C46C6B32FCEA10A09 /* Pods-AWS-Offline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWS-Offline.release.xcconfig"; path = "Target Support Files/Pods-AWS-Offline/Pods-AWS-Offline.release.xcconfig"; sourceTree = "<group>"; };
+		20A62F18520D48A3ACFA8CFD /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
+		72D878E042A705880035E651 /* Pods-AWS-Offline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWS-Offline.debug.xcconfig"; path = "Target Support Files/Pods-AWS-Offline/Pods-AWS-Offline.debug.xcconfig"; sourceTree = "<group>"; };
+		8064B04B106766697053C67B /* Pods_AWS_Offline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWS_Offline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4338733F0A4E44A91498A9 /* User.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = User.swift; path = amplify/generated/models/User.swift; sourceTree = "<group>"; };
+		E11037550AF74965A73F1578 /* User+Schema.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "User+Schema.swift"; path = "amplify/generated/models/User+Schema.swift"; sourceTree = "<group>"; };
 		E69781D924DD48BB00DC6A9B /* AWS-Offline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AWS-Offline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E69781DC24DD48BB00DC6A9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E69781DE24DD48BB00DC6A9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,13 @@
 		E69781E524DD48C000DC6A9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E69781E824DD48C000DC6A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E69781EA24DD48C000DC6A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E69781F124DD4C0C00DC6A9B /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		E69781F324DD4C2A00DC6A9B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		E69781F524DD4D4700DC6A9B /* WireUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireUser.swift; sourceTree = "<group>"; };
+		E69781F724DD506B00DC6A9B /* BatchSaveOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchSaveOperation.swift; sourceTree = "<group>"; };
+		E920665CF195410E8FC49043 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		EFE2F7E6C1E44579A296489C /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
+		FC952C7FEB5F44FBB6AC9586 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F97C82167873779D3DB32DC /* Pods_AWS_Offline.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042980572ED313AD86576CA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72D878E042A705880035E651 /* Pods-AWS-Offline.debug.xcconfig */,
+				1D68227C46C6B32FCEA10A09 /* Pods-AWS-Offline.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		195D973992171702A0277F93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8064B04B106766697053C67B /* Pods_AWS_Offline.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B7BEA0EE7564A93BD80CAF4 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				20A62F18520D48A3ACFA8CFD /* amplifytools.xcconfig */,
+				FC952C7FEB5F44FBB6AC9586 /* amplifyconfiguration.json */,
+				EFE2F7E6C1E44579A296489C /* awsconfiguration.json */,
+				05FEB2D2B6C34D3A9DE39E33 /* schema.graphql */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
+		CFE0E3BF4732459F8EFB1C4A /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				E920665CF195410E8FC49043 /* AmplifyModels.swift */,
+				AF4338733F0A4E44A91498A9 /* User.swift */,
+				E11037550AF74965A73F1578 /* User+Schema.swift */,
+			);
+			name = AmplifyModels;
+			path = .;
+			sourceTree = "<group>";
+		};
 		E69781D024DD48BB00DC6A9B = {
 			isa = PBXGroup;
 			children = (
+				CFE0E3BF4732459F8EFB1C4A /* AmplifyModels */,
+				7B7BEA0EE7564A93BD80CAF4 /* AmplifyConfig */,
 				E69781DB24DD48BB00DC6A9B /* AWS-Offline */,
 				E69781DA24DD48BB00DC6A9B /* Products */,
+				042980572ED313AD86576CA1 /* Pods */,
+				195D973992171702A0277F93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +132,10 @@
 				E69781E524DD48C000DC6A9B /* Assets.xcassets */,
 				E69781E724DD48C000DC6A9B /* LaunchScreen.storyboard */,
 				E69781EA24DD48C000DC6A9B /* Info.plist */,
+				E69781F124DD4C0C00DC6A9B /* NetworkingService.swift */,
+				E69781F324DD4C2A00DC6A9B /* DataManager.swift */,
+				E69781F524DD4D4700DC6A9B /* WireUser.swift */,
+				E69781F724DD506B00DC6A9B /* BatchSaveOperation.swift */,
 			);
 			path = "AWS-Offline";
 			sourceTree = "<group>";
@@ -74,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E69781ED24DD48C000DC6A9B /* Build configuration list for PBXNativeTarget "AWS-Offline" */;
 			buildPhases = (
+				CE2DD295BE9BF0AED7E9A4A8 /* [CP] Check Pods Manifest.lock */,
+				E69781F024DD49D100DC6A9B /* Run Amplify Tools */,
 				E69781D524DD48BB00DC6A9B /* Sources */,
 				E69781D624DD48BB00DC6A9B /* Frameworks */,
 				E69781D724DD48BB00DC6A9B /* Resources */,
+				56BBEC86DB4DAF00B470D96E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,10 +204,72 @@
 				E69781E924DD48C000DC6A9B /* LaunchScreen.storyboard in Resources */,
 				E69781E624DD48C000DC6A9B /* Assets.xcassets in Resources */,
 				E69781E424DD48BB00DC6A9B /* Main.storyboard in Resources */,
+				74B617444AE945DBBEF26C3E /* amplifyconfiguration.json in Resources */,
+				44E4A14D46E04F9DB0C01AA6 /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56BBEC86DB4DAF00B470D96E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AWS-Offline/Pods-AWS-Offline-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AWS-Offline/Pods-AWS-Offline-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AWS-Offline/Pods-AWS-Offline-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE2DD295BE9BF0AED7E9A4A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWS-Offline-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E69781F024DD49D100DC6A9B /* Run Amplify Tools */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Amplify Tools";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/AmplifyTools/amplify-tools.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E69781D524DD48BB00DC6A9B /* Sources */ = {
@@ -139,8 +277,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E69781E124DD48BB00DC6A9B /* ViewController.swift in Sources */,
+				E69781F424DD4C2A00DC6A9B /* DataManager.swift in Sources */,
 				E69781DD24DD48BB00DC6A9B /* AppDelegate.swift in Sources */,
 				E69781DF24DD48BB00DC6A9B /* SceneDelegate.swift in Sources */,
+				E69781F224DD4C0C00DC6A9B /* NetworkingService.swift in Sources */,
+				E69781F824DD506B00DC6A9B /* BatchSaveOperation.swift in Sources */,
+				0173D8CBDD5042E1AB10E2CE /* AmplifyModels.swift in Sources */,
+				E69781F624DD4D4700DC6A9B /* WireUser.swift in Sources */,
+				7F7E4ABA324A498391AB5D30 /* User.swift in Sources */,
+				D0E45005340D48AB9FCAC186 /* User+Schema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +427,7 @@
 		};
 		E69781EE24DD48C000DC6A9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D878E042A705880035E651 /* Pods-AWS-Offline.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +446,7 @@
 		};
 		E69781EF24DD48C000DC6A9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D68227C46C6B32FCEA10A09 /* Pods-AWS-Offline.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -6,6 +6,8 @@
 //  Copyright © 2020 Hoàng Anh. All rights reserved.
 //
 
+import Amplify
+import AmplifyPlugins
 import UIKit
 
 @UIApplicationMain
@@ -14,8 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        configAmplify()
         return true
+    }
+    
+    func configAmplify() {
+        do {
+            try Amplify.add(plugin: AWSDataStorePlugin(modelRegistration: AmplifyModels()))
+            try Amplify.configure()
+        } catch {
+            print(error)
+        }
+        
     }
 
     // MARK: UISceneSession Lifecycle
